@@ -2,7 +2,7 @@ def common_elements(a, b):
     common = []
     i = 0
     j = 0
-    while i < len(a):
+    while i < len(a) and j < len(b):
         if a[i] == b[j]:
             common.append(a[i])
             i += 1
