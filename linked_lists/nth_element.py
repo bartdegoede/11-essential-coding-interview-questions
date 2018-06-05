@@ -23,9 +23,6 @@ def nth_from_last(head, n):
 
 
 def nth_from_last_pointer(head, n):
-    if head is None:
-        return
-
     p1 = head
     p2 = head
     for _ in range(n):
