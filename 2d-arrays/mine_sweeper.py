@@ -32,6 +32,9 @@ def click(field, num_rows, num_cols, x, y):
     return field
 
 
+
+
+
 # It converts a 2-dimensional array (a list of lists) into
 # an easy-to-read string format.
 def to_string(given_array):
